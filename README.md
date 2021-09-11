@@ -7,6 +7,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________
 
 # Install next, react and react-dom in your project:
+```
 mkdir next-app && cd next-app
 npm install -g npm
 npm install -g yarn
@@ -14,7 +15,7 @@ yarn init -y
 yarn add react react-dom next
 npm install
 npm update
-
+```
 # Open package.json and add the following scripts:
 ```
 "scripts": {
