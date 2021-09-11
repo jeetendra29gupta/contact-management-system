@@ -16,13 +16,14 @@ npm install
 npm update
 
 # Open package.json and add the following scripts:
+```
 "scripts": {
   "dev": "next dev",
   "build": "next build",
   "start": "next start",
   "lint": "next lint"
 },
-
+```
 # Create a pages/index.js inside your project.
 mkdir pages
 touch pages/index.jsx
@@ -38,7 +39,7 @@ export default HomePage;
 ```
 
 # To start developing your application run 
-npm run dev
+```npm run dev```
 or 
-yarn dev
+```yarn dev```
 _____________________________________________________________________________________________________________________________________________
